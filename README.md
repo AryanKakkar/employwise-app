@@ -1,12 +1,110 @@
-# React + Vite
+# **EmployWise App**  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![EmployWise Logo](https://via.placeholder.com/100x100.png?text=EmployWise)  
 
-Currently, two official plugins are available:
+**EmployWise App** is a user management system built with **React, Vite, MUI (Material UI), and React Router**. It provides a seamless UI for managing employees with features like authentication, user listings, and CRUD operations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 **Live Demo**  
+🔗 **[View Live App](#)** *([Add your deployment link here](https://employwise-app-beta.vercel.app))*  
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 **Tech Stack**  
+✅ **React (Vite)** - Fast development and optimized builds  
+✅ **Material UI (MUI)** - Modern UI components  
+✅ **React Router** - Client-side routing  
+✅ **REST API Integration** - Fetch user data  
+✅ **Axios** - API requests  
+✅ **Vercel/Netlify** - Deployment *(Choose one)*  
+
+---
+
+## 📂 **Project Structure**  
+```
+/src
+│── /components   # Reusable UI components
+│── /pages        # Pages (Login, User List)
+│── /services     # API calls & authentication
+│── /assets       # Images & static files
+│── App.jsx       # Main React component
+│── main.jsx      # Entry point
+│── routes.jsx    # React Router setup
+│── vite.config.js # Vite configuration
+```
+
+---
+
+## 🔧 **Installation & Setup**  
+
+### **1️⃣ Clone the Repository**  
+```bash
+git clone https://github.com/AryanKakkar/employwise-app.git
+cd employwise-app
+```
+
+### **2️⃣ Install Dependencies**  
+```bash
+npm install
+```
+
+### **3️⃣ Start the Development Server**  
+```bash
+npm run dev
+```
+The app will be available at **`http://localhost:5173/`**.
+
+---
+
+## 🔗 **API Integration**  
+The app currently uses **Reqres API** for mock user data. Update `services/api.js` for real backend integration.
+
+---
+
+## ✅ **Features & Considerations**  
+✔ **Login Authentication** (using localStorage)  
+✔ **User List with Pagination**  
+✔ **Edit & Delete Users**  
+✔ **Protected Routes** - Requires login  
+✔ **Mobile & Desktop Responsive**  
+✔ **Styled Scrollbars** for better UI  
+✔ **Vite for Fast Performance**  
+
+---
+
+## 🚀 **Deployment**  
+
+### **Vercel Deployment (Recommended)**  
+```bash
+npm install -g vercel
+vercel
+```
+
+### **Netlify Deployment**  
+```bash
+npm run build
+netlify deploy --prod
+```
+
+### **Firebase Deployment**  
+```bash
+npm install -g firebase-tools
+firebase login
+firebase init
+firebase deploy
+```
+
+---
+
+## 📜 **License**  
+This project is licensed under the **MIT License**.
+
+---
+
+## 🤝 **Contributing**  
+Pull requests are welcome! Feel free to open an issue or suggest improvements.  
+
+---
+
+Let me know if you need **any modifications**! 🚀😊
