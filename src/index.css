@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -64,5 +64,20 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+/* Ensure proper spacing and prevent scrolling */
+body {
+  overflow: hidden;
+}
+
+.MuiToolbar-root {
+  min-height: 64px !important;
+}
+
+/* Footer text responsiveness */
+@media (max-width: 600px) {
+  .MuiTypography-body2 {
+    font-size: 0.75rem !important;
   }
 }
