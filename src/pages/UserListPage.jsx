@@ -117,8 +117,11 @@ const UserListPage = () => {
           sx={{
             maxHeight: "50vh",
             overflowY: "auto",
+            overflowX: "auto", // Allow horizontal scroll if needed
             width: "100%",
-            "&::-webkit-scrollbar": { width: "6px" }, // Thin scrollbar
+
+            /* Custom Scrollbar */
+            "&::-webkit-scrollbar": { height: "6px", width: "6px" }, // Thin scrollbar for both directions
             "&::-webkit-scrollbar-track": {
               background: "#f1f1f1",
               borderRadius: "10px",
