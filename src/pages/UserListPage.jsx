@@ -119,6 +119,7 @@ const UserListPage = () => {
             overflowY: "auto",
             overflowX: "auto", // Allow horizontal scroll if needed
             width: "100%",
+            mb: 4,
 
             /* Custom Scrollbar */
             "&::-webkit-scrollbar": { height: "6px", width: "6px" }, // Thin scrollbar for both directions
