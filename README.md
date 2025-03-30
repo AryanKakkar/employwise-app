@@ -1,13 +1,12 @@
 # **EmployWise App**  
 
-![EmployWise Logo](https://via.placeholder.com/100x100.png?text=EmployWise)  
 
 **EmployWise App** is a user management system built with **React, Vite, MUI (Material UI), and React Router**. It provides a seamless UI for managing employees with features like authentication, user listings, and CRUD operations.
 
 ---
 
 ## 🚀 **Live Demo**  
-🔗 **[View Live App](#)** *([Add your deployment link here](https://employwise-app-beta.vercel.app))*  
+🔗 **[View Live App](https://employwise-app-beta.vercel.app)
 
 ---
 
@@ -73,30 +72,6 @@ The app currently uses **Reqres API** for mock user data. Update `services/api.j
 
 ---
 
-## 🚀 **Deployment**  
-
-### **Vercel Deployment (Recommended)**  
-```bash
-npm install -g vercel
-vercel
-```
-
-### **Netlify Deployment**  
-```bash
-npm run build
-netlify deploy --prod
-```
-
-### **Firebase Deployment**  
-```bash
-npm install -g firebase-tools
-firebase login
-firebase init
-firebase deploy
-```
-
----
-
 ## 📜 **License**  
 This project is licensed under the **MIT License**.
 
@@ -105,6 +80,3 @@ This project is licensed under the **MIT License**.
 ## 🤝 **Contributing**  
 Pull requests are welcome! Feel free to open an issue or suggest improvements.  
 
----
-
-Let me know if you need **any modifications**! 🚀😊
